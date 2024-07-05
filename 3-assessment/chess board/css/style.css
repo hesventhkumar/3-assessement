@@ -1,0 +1,32 @@
+
+.chessboard{
+     border-spacing: 0; 
+     border-collapse: collapse;
+    }
+
+
+.chessboard td {
+     border: 1px solid; width: 70px; height: 70px;
+    }
+
+.chessboard .light {
+     background: white;
+     }
+
+.chessboard .dark{
+     background: black;
+     }
+ .chessboard{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+ }    
+
+
+ h1{
+    text-align: center;
+
+ }
+ body{
+    background-color: darkgray;
+ }
